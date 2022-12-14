@@ -14,7 +14,7 @@ public class GridManager : MonoBehaviour
 
     public float tileSize = 2f;
 
-   private MazeCell[,] mazeCells;
+    private MazeCell[,] mazeCells;
     //private Dictionary<Vector2Int,CellGroup> cellGroupDictionary = new Dictionary<Vector2Int, CellGroup>();
 
     [SerializeField]
